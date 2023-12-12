@@ -14,4 +14,5 @@ This program uses [Impackets SMB server](https://github.com/fortra/impacket) and
 # How it works:
 Themebleed starts with a .THEME file that requests for an msstyles file off of the internet.
 If the file has a "999" version number is used it will call the ReviseVersionIfNecessary function, which unsafely loads a .dll file, allowing an attacker to load an unchecked library file.
-
+# Why Another PoC?
+I put this together because I couldn't get the C# code to compile in linux, probably due to my own ignorance of how it works, I know how to code python though.
