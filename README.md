@@ -20,3 +20,4 @@ I put this together because I couldn't get the C# code to compile in linux, prob
 # Notable Lines:
 Lines 44-53 in ThemeBleedServer.py/overrideSmb2Create - This is where the path change happens <br />
 Lines 191-End in ThemeBleedServer.py - Server Creation
+Line 13 in exploit.theme - For IP change.
