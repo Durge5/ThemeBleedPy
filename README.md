@@ -9,6 +9,7 @@ This program uses [Impackets SMB server](https://github.com/fortra/impacket) and
     Replace {IP-ADDRESS} in the exploit.theme file
     python3 ThemeBleedServer.py - Run the SMB server
     Use the .theme file on a vulnerable windows 11 machine
+    As in Gabe's Exploit you need to create a new stage 3 file that is a dll that exports VerifyThemeVersion, the current file only opens Calc.
 ```
 
 # How it works:
